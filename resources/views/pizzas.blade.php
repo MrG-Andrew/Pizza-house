@@ -22,13 +22,9 @@
         @foreach($pizzas as $pizza)
 
             <div>
-                {{$loop->index}}  {{$pizza['type']}} - {{$pizza['base']}} - {{$pizza['price']}} $
+                
+                {{$pizza->name}} - {{$pizza->type}} - {{$pizza->base}}
 
-                @if($loop->first)
-                    <span> - first in the loop</span>
-                @elseif($loop->last)
-                    <span> - last in the loop</span>
-                @endif
             </div>
 
         @endforeach
