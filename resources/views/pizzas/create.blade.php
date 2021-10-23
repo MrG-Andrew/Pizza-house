@@ -22,6 +22,15 @@
             <option value="garlic crust">garlic crust</option>
             <option value="Thick & cheesy">Thick & chessy</option>
         </select>
+        <fieldset>
+            <label>Extra Toppings:</label><br>
+            <input type="checkbox" name="toppings[]" id="toppings" value="">none <br>
+            <input type="checkbox" name="toppings[]" id="toppings" value="cheese">cheese <br>
+            <input type="checkbox" name="toppings[]" id="toppings" value="peppers">peppers <br>
+            <input type="checkbox" name="toppings[]" id="toppings" value="garlic">garlic <br>
+            <input type="checkbox" name="toppings[]" id="toppings" value="olives">olives <br>
+
+        </fieldset>
          <input type="submit" value="ORDER NOW"> <!--value is what the user sees -->
     </form>
 </div>
