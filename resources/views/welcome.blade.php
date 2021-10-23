@@ -22,6 +22,7 @@
     
             a7san pizza fl 3alm
         </div>
+        <a href="/pizzas/create">Order a Pizza</a>
     </div>
 </div>
 @endsection
