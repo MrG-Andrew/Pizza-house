@@ -5,6 +5,7 @@
 <div class="wrapper create-pizza">
     <h1>Create a new pizza</h1>
     <form action="/pizzas" method="POST">
+        @csrf  <!--built-in larvel server security -->
         <label for="name" >Your Name:</label>
         <input type="text" id="name" name="name" placeholder="ur name" required>
         <label for="type">Choose Pizza Type:</label>

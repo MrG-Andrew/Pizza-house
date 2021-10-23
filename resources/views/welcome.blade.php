@@ -22,6 +22,7 @@
     
             a7san pizza fl 3alm
         </div>
+        <p class="msg">{{ session('msg') }}</p>
         <a href="/pizzas/create">Order a Pizza</a>
     </div>
 </div>
