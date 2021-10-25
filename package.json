@@ -14,5 +14,11 @@
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
+    },
+    "dependencies": {
+        "cross-env": "^7.0.3",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.43.3",
+        "sass-loader": "^12.2.0"
     }
 }
